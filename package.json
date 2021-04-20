@@ -11,5 +11,8 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "excel-export": "~0.3.11"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0"
   }
 }
