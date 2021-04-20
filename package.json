@@ -1,13 +1,16 @@
 {
-  "name": "json2xls",
+  "name": "@aarmora/json2xls",
   "version": "0.1.2",
   "description": "canonically transform json to an excel document",
   "main": "lib/json2xls.js",
   "scripts": {
     "test": "jasmine-node spec"
   },
-  "repository": "https://github.com/rikkertkoppes/json2xls",
-  "author": "Rikkert Koppes <rikkert@rikkertkoppes.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarmora/json2xls.git"
+  },
+  "author": "Original: Rikkert Koppes. Now: Jordan Hansen",
   "license": "BSD-2-Clause",
   "dependencies": {
     "excel-export": "~0.3.11"
